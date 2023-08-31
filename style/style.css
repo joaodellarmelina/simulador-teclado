@@ -85,7 +85,7 @@ body {
 }
 
 
-/* .letras {
+.letras {
     display: block;
     width: 100%;
     opacity: 0;
@@ -97,7 +97,17 @@ body {
     color: #4f1ffd;
 }
 
-.keys:hover .letras {
-    opacity: 1;
-    color: #3700ff;
-} */
+.mostrarLetras {
+    padding: 10px;
+    margin: 1px;
+
+    position: absolute;
+    top: 25px;
+    right: 10%;
+
+    border: none;
+    border-radius: 20px;
+    background-color: #4f1ffd;
+    color: white;
+    width: 120px;
+}
